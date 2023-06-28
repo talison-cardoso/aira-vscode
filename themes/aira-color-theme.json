@@ -3,7 +3,7 @@
 	"name": "Aira Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1c2834",
+		"editor.background": "#1C2834",
 		"editor.foreground": "#EEFFFF",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -25,14 +25,14 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#909cc3"
+				"foreground": "#909CC3"
 			}
 		},
 		{
-			"name": "[ALL] - Constant Numeric",
+			"name": "Constant Numeric",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#50e191"
+				"foreground": "#50E191"
 			}
 		},
 		{
@@ -42,57 +42,35 @@
 				"entity.name.type.class"
 			],
 			"settings": {
-				"foreground": "#ff916e"
+				"foreground": "#FF916E"
 			}
 		},
 		{
 			"name": "Entity Name Function",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#43dad7"
-			}
-		},
-		{
-			"name": "[CSS] - Entity Name Tag",
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "#50e191"
-			}
-		},
-		{
-			"name": "[CSS] - Entity Other Attribute Name",
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"foreground": "#ff916e"
+				"foreground": "#C8B6FF"
 			}
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#50e191"
+				"foreground": "#50E191"
 			}
 		},
 		{
-			"name": "[all] - Keyword Operator",
+			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#fff"
-			}
-		},
-		{
-			"name": "[Markdown] - Markup Bold",
-			"scope": "markup.bold",
-			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#E9C46A"
 			}
 		},
 		{
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#909cc3"
+				"foreground": "#909CC3"
 			}
 		},
 		{
@@ -103,14 +81,14 @@
 				"punctuation.start.definition.comment"
 			],
 			"settings": {
-				"foreground": "#909cc3"
+				"foreground": "#909CC3"
 			}
 		},
 		{
 			"name": "Punctuation Section",
 			"scope": "punctuation.section",
 			"settings": {
-				"foreground": "#50e191"
+				"foreground": "#50E191"
 			}
 		},
 		{
@@ -120,36 +98,35 @@
 				"punctuation.section.embedded.end"
 			],
 			"settings": {
-				"foreground": "#50e191"
+				"foreground": "#50E191"
 			}
 		},
 		{
 			"name": "Punctuation Terminator",
 			"scope": "punctuation.terminator",
 			"settings": {
-				"foreground": "#909cc3"
+				"foreground": "#909CC3"
 			}
 		},
 		{
 			"name": "Punctuation Variable",
 			"scope": "punctuation.definition.variable",
 			"settings": {
-				"foreground": "#909cc3"
+				"foreground": "#909CC3"
 			}
 		},
-		// TODO: Arrumar
 		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"foreground": "#50e191"
+				"foreground": "#50E191"
 			}
 		},
 		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#ff916e"
+				"foreground": "#FF916E"
 			}
 		},
 		{
@@ -163,7 +140,7 @@
 			"name": "Support Class",
 			"scope": "support.class",
 			"settings": {
-				"foreground": "#e9c46a"
+				"foreground": "#E9C46A"
 			}
 		},
 		{
@@ -174,73 +151,52 @@
 			}
 		},
 		{
-			"name": "Support Function",
+			"name": "{print.py} Support Function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#43dad7"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
-			"name": "Support Function Construct",
+			"name": "{echo.php} Support Function Construct",
 			"scope": "support.function.construct",
 			"settings": {
-				"foreground": "#50e191"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
 			"name": "Support Type",
 			"scope": "support.type",
 			"settings": {
-				"foreground": "#43dad7"
+				"foreground": "#E9C46A"
 			}
 		},
 		{
 			"name": "Support Type Exception",
 			"scope": "support.type.exception",
 			"settings": {
-				"foreground": "#e9c46a"
+				"foreground": "#E9C46A"
 			}
 		},
 		{
 			"name": "[Storage] — The color for Storage Type Arrow Function",
 			"scope": "storage.type.function.arrow",
 			"settings": {
-				"foreground": "#43dad7"
-			}
-		},
-		{
-			"name": "[TYPESCRIPT] - Color for Entity Name Type",
-			"scope": "source.ts entity.name.type",
-			"settings": {
-				"foreground": "#aaa"
-			}
-		},
-		{
-			"name": "[TYPESCRIPT] - Color for Keyword",
-			"scope": "source.ts keyword",
-			"settings": {
-				"foreground": "#50e191"
-			}
-		},
-		{
-			"name": "[TYPESCRIPT] - Color for Punctuation Parameters",
-			"scope": "source.ts punctuation.definition.parameters",
-			"settings": {
-				"foreground": "#E1EFFF"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
 			"name": "Variable",
 			"scope": "variable.other",
 			"settings": {
-				"foreground": "#fff"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
 			"name": "Variable Language",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#43dad7",
+				"foreground": "#E9C46A",
 				"fontStyle": "italic"
 			}
 		},
@@ -248,51 +204,41 @@
 			"name": "Variable Parameter",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#ff916e"
+				"foreground": "#FFFFFFCC"
 			}
 		},
 		{
 			"name": "Color for Inherited Component",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#50e191",
+				"foreground": "#E9C46A",
 				"fontStyle": ""
 			}
 		},
 		{
-			"name": "[JAVASCRIPT] - Color for React Extends keyword",
+			"name": "[JAVASCRIPT] Color for React Extends keyword",
 			"scope": [
 				"storage.type.extends.js",
 				"storage.type.class.jsdoc"
 			],
 			"settings": {
-				"foreground": "#50e191"
+				"foreground": "#50E191"
 			}
 		},
-		// {
-		// 	"name": "Typescript/React Classnames and Modules",
-		// 	"scope": [
-		// 		"entity.name.type.class.tsx",
-		// 		"entity.name.type.class.jsx",
-		// 		"variable.other.readwrite.alias.tsx",
-		// 		"variable.other.readwrite.tsx",
-		// 		"variable.other.readwrite.alias.ts",
-		// 		"variable.other.readwrite.alias.jsx",
-		// 		"variable.other.readwrite.alias.js",
-		// 		"variable.other.object.tsx",
-		// 		"variable.other.object.jsx",
-		// 		"variable.other.object",
-		// 		"support.class.component.tsx",
-		// 		"support.class.component.jsx",
-		// 		"entity.name.type.tsx",
-		// 		"entity.name.type.jsx",
-		// 		"variable.other.readwrite",
-		// 		"variable.other.object.js"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#c8b6ff"
-		// 	}
-		// },
+		{
+			"name": "[TYPESCRIPT] Color for Entity Name Type",
+			"scope": "source.ts entity.name.type",
+			"settings": {
+				"foreground": "#FF916E"
+			}
+		},
+		{
+			"name": "[TYPESCRIPT] Color for Keyword",
+			"scope": "source.ts keyword",
+			"settings": {
+				"foreground": "#50E191"
+			}
+		},
 		{
 			"name": "[CSS] Constant Other Color RGB Value",
 			"scope": "source.css constant.other.color.rgb-value",
@@ -304,7 +250,7 @@
 			"name": "[CSS](Function) Meta Property-Value",
 			"scope": "source.css meta.property-value",
 			"settings": {
-				"foreground": "#909cc3"
+				"foreground": "#909CC3"
 			}
 		},
 		{
@@ -314,14 +260,14 @@
 				"source.css keyword.control.at-rule.media"
 			],
 			"settings": {
-				"foreground": "#50e191"
+				"foreground": "#50E191"
 			}
 		},
 		{
 			"name": "[CSS] Punctuation Definition Keyword",
 			"scope": "source.css punctuation.definition.keyword",
 			"settings": {
-				"foreground": "#909cc3"
+				"foreground": "#909CC3"
 			}
 		},
 		{
@@ -331,6 +277,26 @@
 				"foreground": "#ffffffbb"
 			}
 		},
-		// TODO: Linha 798
+		{
+			"name": "[CSS] Entity Name Tag",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#50E191"
+			}
+		},
+		{
+			"name": "[CSS]  Entity Other Attribute Name",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#FF916E"
+			}
+		},
+		{
+			"name": "[Markdown] - Markup Bold",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
 	]
 }
