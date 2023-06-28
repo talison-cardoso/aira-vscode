@@ -1,0 +1,21 @@
+{
+  "name": "aira",
+  "displayName": "Aira",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aira",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aira-color-theme.json"
+      } 
+    ]
+  }
+}

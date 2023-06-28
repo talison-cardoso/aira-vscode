@@ -1,0 +1,336 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Aira Theme",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1c2834",
+		"editor.foreground": "#EEFFFF",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"scope": "emphasis",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#909cc3"
+			}
+		},
+		{
+			"name": "[ALL] - Constant Numeric",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		{
+			"name": "Entity Name Class/Type",
+			"scope": [
+				"entity.name.class",
+				"entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#ff916e"
+			}
+		},
+		{
+			"name": "Entity Name Function",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#43dad7"
+			}
+		},
+		{
+			"name": "[CSS] - Entity Name Tag",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		{
+			"name": "[CSS] - Entity Other Attribute Name",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#ff916e"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		{
+			"name": "[all] - Keyword Operator",
+			"scope": "keyword.operator",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "[Markdown] - Markup Bold",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#909cc3"
+			}
+		},
+		{
+			"name": "Punctuation Definition Comment",
+			"scope": [
+				"punctuation.definition.comment",
+				"punctuation.end.definition.comment",
+				"punctuation.start.definition.comment"
+			],
+			"settings": {
+				"foreground": "#909cc3"
+			}
+		},
+		{
+			"name": "Punctuation Section",
+			"scope": "punctuation.section",
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		{
+			"name": "Punctuation Section Embedded",
+			"scope": [
+				"punctuation.section.embedded.begin",
+				"punctuation.section.embedded.end"
+			],
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		{
+			"name": "Punctuation Terminator",
+			"scope": "punctuation.terminator",
+			"settings": {
+				"foreground": "#909cc3"
+			}
+		},
+		{
+			"name": "Punctuation Variable",
+			"scope": "punctuation.definition.variable",
+			"settings": {
+				"foreground": "#909cc3"
+			}
+		},
+		// TODO: Arrumar
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#ff916e"
+			}
+		},
+		{
+			"name": "String Regexp",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#00d2fa"
+			}
+		},
+		{
+			"name": "Support Class",
+			"scope": "support.class",
+			"settings": {
+				"foreground": "#e9c46a"
+			}
+		},
+		{
+			"name": "Support Constant",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#43dad7"
+			}
+		},
+		{
+			"name": "Support Function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#43dad7"
+			}
+		},
+		{
+			"name": "Support Function Construct",
+			"scope": "support.function.construct",
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		{
+			"name": "Support Type",
+			"scope": "support.type",
+			"settings": {
+				"foreground": "#43dad7"
+			}
+		},
+		{
+			"name": "Support Type Exception",
+			"scope": "support.type.exception",
+			"settings": {
+				"foreground": "#e9c46a"
+			}
+		},
+		{
+			"name": "[Storage] — The color for Storage Type Arrow Function",
+			"scope": "storage.type.function.arrow",
+			"settings": {
+				"foreground": "#43dad7"
+			}
+		},
+		{
+			"name": "[TYPESCRIPT] - Color for Entity Name Type",
+			"scope": "source.ts entity.name.type",
+			"settings": {
+				"foreground": "#aaa"
+			}
+		},
+		{
+			"name": "[TYPESCRIPT] - Color for Keyword",
+			"scope": "source.ts keyword",
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		{
+			"name": "[TYPESCRIPT] - Color for Punctuation Parameters",
+			"scope": "source.ts punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#E1EFFF"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable.other",
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Variable Language",
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#43dad7",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Variable Parameter",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#ff916e"
+			}
+		},
+		{
+			"name": "Color for Inherited Component",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"foreground": "#50e191",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "[JAVASCRIPT] - Color for React Extends keyword",
+			"scope": [
+				"storage.type.extends.js",
+				"storage.type.class.jsdoc"
+			],
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		// {
+		// 	"name": "Typescript/React Classnames and Modules",
+		// 	"scope": [
+		// 		"entity.name.type.class.tsx",
+		// 		"entity.name.type.class.jsx",
+		// 		"variable.other.readwrite.alias.tsx",
+		// 		"variable.other.readwrite.tsx",
+		// 		"variable.other.readwrite.alias.ts",
+		// 		"variable.other.readwrite.alias.jsx",
+		// 		"variable.other.readwrite.alias.js",
+		// 		"variable.other.object.tsx",
+		// 		"variable.other.object.jsx",
+		// 		"variable.other.object",
+		// 		"support.class.component.tsx",
+		// 		"support.class.component.jsx",
+		// 		"entity.name.type.tsx",
+		// 		"entity.name.type.jsx",
+		// 		"variable.other.readwrite",
+		// 		"variable.other.object.js"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#c8b6ff"
+		// 	}
+		// },
+		{
+			"name": "[CSS] Constant Other Color RGB Value",
+			"scope": "source.css constant.other.color.rgb-value",
+			"settings": {
+				"foreground": "#bdbdbd"
+			}
+		},
+		{
+			"name": "[CSS](Function) Meta Property-Value",
+			"scope": "source.css meta.property-value",
+			"settings": {
+				"foreground": "#909cc3"
+			}
+		},
+		{
+			"name": "[CSS] Media Queries",
+			"scope": [
+				"source.css keyword.control.at-rule.media",
+				"source.css keyword.control.at-rule.media"
+			],
+			"settings": {
+				"foreground": "#50e191"
+			}
+		},
+		{
+			"name": "[CSS] Punctuation Definition Keyword",
+			"scope": "source.css punctuation.definition.keyword",
+			"settings": {
+				"foreground": "#909cc3"
+			}
+		},
+		{
+			"name": "[CSS] Support Type Property Name",
+			"scope": "source.css support.type.property-name",
+			"settings": {
+				"foreground": "#ffffffbb"
+			}
+		},
+		// TODO: Linha 798
+	]
+}
