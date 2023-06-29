@@ -3,10 +3,62 @@
 	"name": "Aira Theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1C2834",
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference
+		"editor.background": "#131C24",
 		"editor.foreground": "#EEFFFF",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"activityBarBadge.background": "#FF916E",
+		"sideBarTitle.foreground": "#bbbbbb",
+		// Activity Bar.
+		"activityBar.background": "#131C24",
+		"activityBar.border": "#1C2834",
+		"activityBar.foreground": "#FFFFFF", // icon
+		"activityBar.inactiveForeground": "#909CC3", // icons
+		"activityBarBadge.foreground": "#131C24", // number
+		"activityBar.activeBorder": "#909CC3",
+		"activityBar.activeBackground": "#1C2834",
+		// SideBar
+		"sideBar.background": "#131C24",
+		"sideBar.border": "#1C2834",
+		"sideBar.foreground": "#FFFFFFCC",
+		"sideBarSectionHeader.background": "#131C24",
+		"sideBarSectionHeader.foreground": "#FFFFFFCC",
+		"sideBarSectionHeader.border": "#1C2834",
+		// Button
+		"button.background": "#50E191CC",
+		"button.foreground": "#1C2834",
+		// "button.hoverBackground": "#50E191",
+		"button.secondaryBackground": "#E9C46A",
+		"button.secondaryForeground": "#1C2834",
+		// "button.secondaryHoverBackground": "#E9C46A",
+		//	
+		"descriptionForeground": "#AAA",
+		"selection.background": "#ffffff4d",
+		// Dropdown.
+		"dropdown.background": "#131C24",
+		"dropdown.border": "#111",
+		"dropdown.foreground": "#FFFFFFCC",
+		//welcome
+		"textLink.activeForeground": "#FFFFFFCC",
+		"textLink.foreground": "#FF916E",
+		// Editor
+		// Errors and warnings:
+		"editorError.foreground": "#E63946",
+		"editorWarning.foreground": "#E9C46A",
+		// TODO: Debug Icons.
+		"editor.selectionBackground": "#FFFFFF33",
+		"editor.wordHighlightBackground": "#FFF3", // Same words other places.
+		"editor.wordHighlightStrongBackground": "#FFF3", // Cursor inside current variable.
+		"editor.wordHighlightStrongBorder": "#FFFC",
+		"editor.lineHighlightBackground": "#131C2444", // Current line of code [background].
+		"editor.lineHighlightBorder": "#131C2488",
+		"editorLink.activeForeground": "#909CC3",
+		"editorIndentGuide.background": "#50E19133",
+		"editorIndentGuide.activeBackground": "#50E19188",
+		// Numeric line	
+		"editorGutter.addedBackground": "#35AD68",
+		"editorGutter.deletedBackground": "#E63946",
+		"editorGutter.modifiedBackground": "#E9C46A",
+		// linha 123
 	},
 	"tokenColors": [
 		{
