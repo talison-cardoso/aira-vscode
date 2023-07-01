@@ -1,11 +1,28 @@
 {
   "name": "aira",
   "displayName": "Aira",
-  "description": "",
-  "version": "0.0.1",
+  "description": "A different theme for different people who make a difference.",
+  "version": "0.1.1",
+  "publisher": "talisoncardoso",
   "engines": {
     "vscode": "^1.79.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talison-cardoso/aira-vscode"
+  },
+  "icon": "images/icon/logo.png",
+  "galleryBanner": {
+    "color": "#131C24",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Aira",
+    "Dark Theme",
+    "Aura",
+    "One Dark",
+    "Dracula"
+  ],
   "categories": [
     "Themes"
   ],
@@ -15,7 +32,8 @@
         "label": "Aira",
         "uiTheme": "vs-dark",
         "path": "./themes/aira-color-theme.json"
-      } 
+      }
     ]
-  }
+  },
+  "license": "MIT"
 }
