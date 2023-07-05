@@ -54,11 +54,21 @@
 		"editorLink.activeForeground": "#909CC3",
 		"editorIndentGuide.background": "#50E19133",
 		"editorIndentGuide.activeBackground": "#50E19188",
-		// Numeric line	
+		// Numeric line	- git
 		"editorGutter.addedBackground": "#35AD68",
 		"editorGutter.deletedBackground": "#E63946",
 		"editorGutter.modifiedBackground": "#E9C46A",
-		// linha 123
+		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+		"editorGroup.dropBackground": "#ffffff4d",
+		"editorGroupHeader.noTabsBackground": "#1C2834",
+		"editorGroupHeader.tabsBackground": "#131C24",
+		"editorGroupHeader.tabsBorder": "#1C2834",
+		//
+		"tab.activeBackground": "#1C2834",
+		"tab.activeForeground": "#FFFFFF",
+		"tab.border": "#1C2834",
+		"tab.activeBorder": "#E9C46A",
+		"tab.inactiveBackground": "#131C24",
 	},
 	"tokenColors": [
 		{
