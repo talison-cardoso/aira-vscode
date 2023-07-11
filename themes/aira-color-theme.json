@@ -14,8 +14,8 @@
 		"activityBar.foreground": "#FFFFFF", // icon
 		"activityBar.inactiveForeground": "#909CC3", // icons
 		"activityBarBadge.foreground": "#131C24", // number
-		"activityBar.activeBorder": "#909CC3",
-		"activityBar.activeBackground": "#1C2834",
+		"activityBar.activeBorder": "#FF916E",
+		// "activityBar.activeBackground": "#1C2834",
 		// SideBar
 		"sideBar.background": "#131C24",
 		"sideBar.border": "#1C2834",
@@ -32,7 +32,7 @@
 		// "button.secondaryHoverBackground": "#E9C46A",
 		//	
 		"descriptionForeground": "#AAA",
-		"selection.background": "#ffffff4d",
+		"selection.background": "#404657",
 		// Dropdown.
 		"dropdown.background": "#131C24",
 		"dropdown.border": "#111",
@@ -45,9 +45,9 @@
 		"editorError.foreground": "#E63946",
 		"editorWarning.foreground": "#E9C46A",
 		// TODO: Debug Icons.
-		"editor.selectionBackground": "#FFFFFF33",
-		"editor.wordHighlightBackground": "#FFF3", // Same words other places.
-		"editor.wordHighlightStrongBackground": "#FFF3", // Cursor inside current variable.
+		"editor.selectionBackground": "#404657",
+		"editor.wordHighlightBackground": "#404657", // Same words other places.
+		"editor.wordHighlightStrongBackground": "#404657", // Cursor inside current variable.
 		"editor.wordHighlightStrongBorder": "#FFFC",
 		"editor.lineHighlightBackground": "#131C2444", // Current line of code [background].
 		"editor.lineHighlightBorder": "#131C2488",
@@ -59,7 +59,7 @@
 		"editorGutter.deletedBackground": "#E63946",
 		"editorGutter.modifiedBackground": "#E9C46A",
 		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
-		"editorGroup.dropBackground": "#ffffff4d",
+		"editorGroup.dropBackground": "#404657",
 		"editorGroupHeader.noTabsBackground": "#1C2834",
 		"editorGroupHeader.tabsBackground": "#131C24",
 		"editorGroupHeader.tabsBorder": "#1C2834",
@@ -67,9 +67,33 @@
 		"tab.activeBackground": "#1C2834",
 		"tab.activeForeground": "#FFFFFF",
 		"tab.border": "#1C2834",
-		"tab.activeBorder": "#E9C46A",
+		"tab.activeBorderTop": "#E9C46A",
+		// "tab.activeBorder": "#E9C46A",
+		"tab.hoverBackground": "#1C2834",
 		"tab.inactiveBackground": "#131C24",
+		// https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
+		"editorWidget.background": "#1C2834",
+		"editorWidget.border": "#909CC3",
+		"editorHoverWidget.background": "#1C2834", // "Tooltip"
+		"editorHoverWidget.border": "#404657",
+		"editorSuggestWidget.background": "#1C2834",
+		"editorSuggestWidget.border": "#404657",
+		"editorSuggestWidget.foreground": "#FFFFFF",
+		"editorSuggestWidget.highlightForeground": "#E9C46A",
+		"editorSuggestWidget.selectedBackground": "#404657",
+		// whitespace °
+		"editorWhitespace.foreground": "#404657",
+		"errorForeground": "#E63946F5",
+		// Extensions
+		"focusBorder": "#909CC3",
+		"foreground": "#FFF",
+		// Input
+		"input.background": "#1C2834",
+		"input.border": "#111",
+		"input.foreground": "#FFFFFF",
+		"input.placeholderForeground": "#FFFFFFCC",
 	},
+	// linha 205
 	"tokenColors": [
 		{
 			"scope": "emphasis",
