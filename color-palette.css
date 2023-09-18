@@ -1,12 +1,16 @@
-:root {
-    --background: #1C2834;
-    --black-2: #131C24;
-    --orange: #FF916E;
-    --green: #50E191;
-    --green-2: #35AD68;
-    --yellow: #E9C46A;
-    --violet: #C8B6FF;
-    --grayish-blue: #909CC3;
-    --gray: #404657;
-    --red: #E63946;
+.aira-hope {
+  --background-fake: #1c2834;
+  --background: #131c24;
+  --pink: #e747d9;
+  --yellow: #e9c46a;
+  --gray: #909cc3;
+  --grayish: #404657;
+  --cyan: #63acff;
+  --green: #50e191;
+  --orange: #ff916e;
+  --red: #ef4e5b;
+}
+
+maydo {
+  --bg: #090819;
 }

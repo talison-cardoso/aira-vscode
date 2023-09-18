@@ -2,10 +2,10 @@
   "name": "aira",
   "displayName": "Aira",
   "description": "A different theme for different people who make a difference.",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "publisher": "talisoncardoso",
   "engines": {
-    "vscode": "^1.79.0"
+    "vscode": "^1.0.0"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "icon": "images/icon/logo.png",
   "galleryBanner": {
-    "color": "#131C24",
+    "color": "#1C2834",
     "theme": "dark"
   },
   "keywords": [
@@ -29,9 +29,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Aira",
+        "label": "Aira hope",
         "uiTheme": "vs-dark",
-        "path": "./themes/aira-color-theme.json"
+        "path": "./themes/aira-hope.json"
+      },
+      {
+        "label": "Aira old",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aira-old.json"
       }
     ]
   },
