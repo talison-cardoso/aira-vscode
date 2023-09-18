@@ -52,8 +52,8 @@
 		"editor.lineHighlightBackground": "#131C2444", // Current line of code [background].
 		"editor.lineHighlightBorder": "#131C2488",
 		"editorLink.activeForeground": "#909CC3",
-		"editorIndentGuide.background": "#50E19133",
-		"editorIndentGuide.activeBackground": "#50E19188",
+		"editorIndentGuide.background1": "#50E19133",
+		"editorIndentGuide.activeBackground1": "#50E19188",
 		// Numeric line	- git
 		"editorGutter.addedBackground": "#35AD68",
 		"editorGutter.deletedBackground": "#E63946",

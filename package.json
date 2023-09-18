@@ -2,7 +2,7 @@
   "name": "aira",
   "displayName": "Aira",
   "description": "A different theme for different people who make a difference.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "talisoncardoso",
   "engines": {
     "vscode": "^1.0.0"
