@@ -1,5 +1,13 @@
 # CHANGELOG
 
+### RELEASE: 1.0.1
+
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+
+> 🐛 Editor Indent Guide is deprecated
+
+----
+
 ### RELEASE: 1.0.0
 
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
@@ -17,5 +25,4 @@
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 > Editor tab colors
-
 > Editor suggestions widget
