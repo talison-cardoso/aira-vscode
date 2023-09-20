@@ -12,7 +12,7 @@
     "button.hoverBackground": "#50E191dd",
     "button.foreground": "#1C2834",
     "button.secondaryBackground": "#909CC3",
-		"button.secondaryForeground": "#1C2834",
+    "button.secondaryForeground": "#1C2834",
 
     // Progress Bar
     "progressBar.background": "#50E191",
@@ -218,7 +218,6 @@
         "fontStyle": "italic"
       }
     },
-
     {
       "name": "Nome da função",
       "scope": ["meta.definition.function", "meta.definition.method"],
@@ -330,7 +329,6 @@
         "foreground": "#50E191"
       }
     },
-
     {
       "name": "Ponto para acesso de um objeto",
       "scope": ["punctuation.accessor"],
@@ -370,7 +368,7 @@
       "name": "Arrow",
       "scope": "storage.type.function.arrow",
       "settings": {
-        "foreground": "#909CC3"
+        "foreground": "#63ACFF"
       }
     },
     {
@@ -403,7 +401,6 @@
         "foreground": "#FF916E"
       }
     },
-
     {
       "name": "Operador de atribuição & maior e menor Q",
       "scope": ["keyword.operator.assignment", "punctuation.definition.tag"],
@@ -473,6 +470,7 @@
         "fontStyle": "bold"
       }
     },
+
     // ------ typescript -------
     {
       "name": "Modulo de exportação",
@@ -515,6 +513,7 @@
         "foreground": "#909CC3"
       }
     },
+
     // -------- Prisma -----------
     {
       "name": "Keyword Model",
@@ -526,7 +525,9 @@
     {
       "name": "Tipos primitivos",
       "scope": ["support.type.primitive.prisma"],
-      "settings": { "foreground": "#50E191" }
+      "settings": {
+        "foreground": "#50E191"
+      }
     },
     {
       "name": "Tipos Relacionais, Enums",
@@ -536,13 +537,13 @@
         "fontStyle": "italic"
       }
     },
-
+    
     // ------- css ----------
     {
       "name": "[CSS] Nome da classe",
       "scope": ["entity.other.attribute-name.class.css"],
       "settings": {
-        "foreground": "#E9C46A"
+        "foreground": "#50E191"
       }
     },
     {
@@ -556,12 +557,16 @@
       "name": "[CSS] Nome da propriedade",
       "scope": ["meta.property-name.css", "support.type.property-name.css"],
       "settings": {
-        "foreground": "#50E191"
+        "foreground": "#e5e5e5"
       }
     },
     {
       "name": "[CSS] Operadores aritmeticos",
-      "scope": ["keyword.operator.arithmetic.css","keyword.operator.comparison.css", "keyword.operator.logical.and.media.css"],
+      "scope": [
+        "keyword.operator.arithmetic.css",
+        "keyword.operator.comparison.css",
+        "keyword.operator.logical.and.media.css"
+      ],
       "settings": {
         "foreground": "#909CC3",
         "fontStyle": "bold"
@@ -569,9 +574,14 @@
     },
     {
       "name": "[CSS] funções",
-      "scope": ["meta.function.calc", "support.function.misc.css"],
+      "scope": [
+        "meta.function.calc",
+        "support.function.misc.css",
+        "support.function.calc.css",
+        "support.function.gradient.css"
+      ],
       "settings": {
-        "foreground": "#e5e5e5"
+        "foreground": "#50E191"
       }
     },
     {
@@ -590,11 +600,72 @@
         "keyword.other.unit.ex.css",
         "keyword.other.unit.vmax.css",
         "keyword.other.unit.vmin.css",
+        "keyword.other.unit.deg.css",
         "keyword.other.unit.percentage.css"
       ],
       "settings": {
-        "foreground": "#909CC3"
+        // "foreground": "#909CC3"
       }
     },
+    {
+      "name": "[CSS] Variáveis",
+      "scope": [
+        "punctuation.definition.variable.property.css",
+        "variable.prop.css"
+      ],
+      "settings": {
+        "foreground": "#e5e5e5"
+      }
+    },
+    {
+      "name": "[CSS] Constante",
+      "scope": ["support.constant.property-value.css"],
+      "settings": {
+        "foreground": "#E9C46A"
+      }
+    },
+    {
+      "name": "[CSS] Propriedade constante como valor ",
+      "scope": ["support.constant.property-value.misc.css"],
+      "settings": {
+        "foreground": "#909CC3",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[CSS] Operadores do gradiente",
+      "scope": ["keyword.operator.gradient.css"],
+      "settings": {
+        "foreground": "#ffce70"
+      }
+    },
+    {
+      "name": "[CSS] Propriedades do keyframes",
+      "scope": [
+        "entity.other.keyframe-offset.percentage.css",
+        "meta.at-rule.keyframes.body.css",
+        "variable.parameter.keyframe-list.css"
+      ],
+      "settings": {
+        "foreground": "#ffce70"
+      }
+    },
+    {
+      "name": "[CSS] Pontuações",
+      "scope": [
+        "punctuation.definition.entity.css",
+        "punctuation.definition.keyword.css"
+      ],
+      "settings": {
+        "foreground": "#e5e5e5"
+      }
+    },
+    {
+      "name": "[CSS] Pseudo elementos",
+      "scope": ["meta.selector.pseudo-class.css"],
+      "settings": {
+        "foreground": "#ffce70"
+      }
+    }
   ]
 }

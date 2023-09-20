@@ -1,5 +1,10 @@
 # CHANGELOG
 
+### RELEASE: 1.1.0
+
+![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+> 👌 CSS syntax
+
 ### RELEASE: 1.0.3
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
