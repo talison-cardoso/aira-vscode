@@ -5,6 +5,8 @@
 ![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 > 👌 CSS syntax
 
+----
+
 ### RELEASE: 1.0.3
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
@@ -12,6 +14,8 @@
 > 🐛 Color of operators changed </br>
 > 🐛 Color of arrow (function) changed</br>
 > 🐛 Color of *fenced codeblock* chagend
+
+----
 
 ### RELEASE: 1.0.2
 
