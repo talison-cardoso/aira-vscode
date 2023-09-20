@@ -8,9 +8,11 @@
     "descriptionForeground": "#e5e5e5",
 
     // Buttons
-    "button.background": "#1ea8fc",
-    "button.hoverBackground": "#1ea8fc",
-    "button.foreground": "#f2f3f7",
+    "button.background": "#50E191",
+    "button.hoverBackground": "#50E191dd",
+    "button.foreground": "#1C2834",
+    "button.secondaryBackground": "#909CC3",
+		"button.secondaryForeground": "#1C2834",
 
     // Progress Bar
     "progressBar.background": "#50E191",
@@ -61,7 +63,7 @@
     "sideBarSectionHeader.foreground": "#e5e5e5",
 
     // Lists & Trees - [Explore] files
-    "list.activeSelectionBackground": "#1C2834",
+    "list.activeSelectionBackground": "#404657",
     "list.activeSelectionForeground": "#e5e5e5",
     "list.dropBackground": "#404657",
     "list.focusBackground": "#404657",

@@ -1,5 +1,14 @@
 # CHANGELOG
 
+### RELEASE: 1.0.2
+
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+
+> 🐛 Button colors </br>
+> 🐛 Selected line color
+
+----
+
 ### RELEASE: 1.0.1
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
@@ -18,11 +27,11 @@
 
 > 🐛 Compatibility with old versions of vscode
 
----
+----
 
 ### RELEASE: 0.2.0
 
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
-> Editor tab colors
+> Editor tab colors</br>
 > Editor suggestions widget
