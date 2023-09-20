@@ -299,7 +299,7 @@
         "keyword.operator.type.annotation"
       ],
       "settings": {
-        "foreground": "#E747D9"
+        "foreground": "#63ACFF"
       }
     },
     {
@@ -370,7 +370,7 @@
       "name": "Arrow",
       "scope": "storage.type.function.arrow",
       "settings": {
-        "foreground": "#e5e5e5"
+        "foreground": "#909CC3"
       }
     },
     {
@@ -433,14 +433,14 @@
       }
     },
     {
-      "name": "Marcação para bloco de codigo",
+      "name": "[Markdown] Marcação para bloco de codigo",
       "scope": [
         "punctuation.definition.markdown",
         "punctuation.definition.strikethrough.markdown",
         "fenced_code.block.language.markdown"
       ],
       "settings": {
-        "foreground": "#E747D9"
+        "foreground": "#63ACFF"
       }
     },
     {
@@ -454,7 +454,7 @@
       "name": "Linha divisória",
       "scope": "meta.separator.markdown",
       "settings": {
-        "foreground": "#E747D9"
+        "foreground": "#909CC3"
       }
     },
     {
