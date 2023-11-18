@@ -1,14 +1,16 @@
 .aira-hope {
-  --background-fake: #1c2834;
+  --background-details: #1c2834;
   --background: #131c24;
-  --pink: #e747d9;
-  --yellow: #e9c46a;
-  --gray: #909cc3;
+  --keywords : #50e191;
+  --foreground: #e9c46a;
+  --function: #C8B6FF;
+  --comment: #909cc3;
   --grayish: #404657;
-  --cyan: #63acff;
-  --green: #50e191;
+  --others: #63acff;
+  --cyan: #43dad7;
   --orange: #ff916e;
   --red: #ef4e5b;
+  --violet-2: #b69eff;
 }
 
 maydo {

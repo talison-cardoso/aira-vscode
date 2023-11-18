@@ -1,5 +1,15 @@
 # CHANGELOG
 
+### RELEASE: 1.2.0
+
+Aira hope rewritten</br>
+
+![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+> 👌 Standardized and redefined colors</br>
+> 👌 Now supports multiple languages
+
+----
+
 ### RELEASE: 1.1.0
 
 ![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
@@ -52,3 +62,5 @@
 
 > Editor tab colors</br>
 > Editor suggestions widget
+
+CHANGELOG inspired by [shades-of-purple](https://github.com/ahmadawais/shades-of-purple-vscode)
