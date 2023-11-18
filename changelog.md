@@ -1,21 +1,32 @@
 # CHANGELOG
 
+## \_
+
+### RELEASE 1.3.0
+
+![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 🆕 CSS support </br>
+> 🆕 Markdown support
+
 ### RELEASE: 1.2.0
 
 Aira hope rewritten</br>
 
 ![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
 > 👌 Standardized and redefined colors</br>
 > 👌 Now supports multiple languages
 
-----
+---
 
 ### RELEASE: 1.1.0
 
 ![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
 > 👌 CSS syntax
 
-----
+---
 
 ### RELEASE: 1.0.3
 
@@ -23,9 +34,9 @@ Aira hope rewritten</br>
 
 > 🐛 Color of operators changed </br>
 > 🐛 Color of arrow (function) changed</br>
-> 🐛 Color of *fenced codeblock* chagend
+> 🐛 Color of _fenced codeblock_ chagend
 
-----
+---
 
 ### RELEASE: 1.0.2
 
@@ -34,7 +45,7 @@ Aira hope rewritten</br>
 > 🐛 Button colors </br>
 > 🐛 Selected line color
 
-----
+---
 
 ### RELEASE: 1.0.1
 
@@ -42,7 +53,7 @@ Aira hope rewritten</br>
 
 > 🐛 Editor Indent Guide is deprecated
 
-----
+---
 
 ### RELEASE: 1.0.0
 
@@ -54,7 +65,7 @@ Aira hope rewritten</br>
 
 > 🐛 Compatibility with old versions of vscode
 
-----
+---
 
 ### RELEASE: 0.2.0
 
