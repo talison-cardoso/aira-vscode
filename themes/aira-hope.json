@@ -183,7 +183,7 @@
       "name": "comments",
       "scope": "comment",
       "settings": {
-        "foreground": "#909cc3"
+        "foreground": "#757e8f"
       }
     },
     {
@@ -195,7 +195,7 @@
     },
     {
       "name": "class declaration",
-      "scope": ["entity.name.type.class", "entity.other.inherited-class.ts"],
+      "scope": ["entity.name.type.class"],
       "settings": {
         "foreground": "#ff916e"
       }
@@ -279,14 +279,10 @@
       }
     },
     {
-      "name": "ponctuation, operators...",
-      "scope": [
-        "punctuation.definition",
-        "keyword.operator.assignment",
-        "punctuation.terminator.statement"
-      ],
+      "name": "Operator",
+      "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#909cc3"
+        "foreground": "#e5e5e5"
       }
     },
     {
@@ -297,8 +293,7 @@
         "entity.other.attribute"
       ],
       "settings": {
-        "foreground": "#e5e5e5",
-        "fontStyle": "italic"
+        "foreground": "#e5e5e5"
       }
     },
     {
@@ -320,24 +315,45 @@
 
     // ----- TYPESCRIPT -----
     {
-      "name": "TYPESCRIPT - return type",
-      "scope": ["meta.return.type"],
+      "name": "TYPESCRIPT - types",
+      "scope": ["support.type.primitive.ts", "entity.name.type.ts", "support.type.builtin.ts"],
       "settings": {
-        "foreground": "#50e191"
+        "foreground": "#909cc3"
       }
     },
     {
-      "name": "TYPESCRIPT - null",
-      "scope": ["support.type.builtin.ts"],
+      "name": "TYPESCRIPT - keyword ponctuation",
+      "scope": ["keyword.operator.type.annotation.ts"],
       "settings": {
-        "foreground": "#63acff"
+        "foreground": "#e5e5e5"
       }
     },
     {
-      "name": "TYPESCRIPT - entity type",
-      "scope": ["entity.name.type.ts"],
+      "name": "TYPESCRIPT - keyword new",
+      "scope": ["keyword.operator.new.ts"],
       "settings": {
-        "foreground": "#50e191"
+        "foreground": "#909cc3",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TYPESCRIPT - control flow",
+      "scope": ["keyword.control.flow.ts"],
+      "settings": {
+        "foreground": "#909cc3"
+      }
+    },
+    {
+      "name": "TYPESCRIPT - keyword ponctuation",
+      "scope": [
+        "keyword.operator.optional",
+        "keyword.operator.logical",
+        "keyword.operator.type",
+        "punctuation.accessor.optional",
+        "keyword.operator.ternary"
+      ],
+      "settings": {
+        "foreground": "#ff916e"
       }
     },
 
@@ -638,6 +654,17 @@
       "settings": {
         "foreground": "#909cc3",
         "fontStyle": "italic"
+      }
+    },
+    // ---- RUST -----
+    {
+      "name": "RUST - keyword ponctuation",
+      "scope": [
+        "keyword.operator.key-value.rust",
+        "keyword.operator.namespace.rust"
+      ],
+      "settings": {
+        "foreground": "#e5e5e5"
       }
     }
   ]

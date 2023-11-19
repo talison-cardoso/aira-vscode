@@ -2,12 +2,22 @@
 
 ## \_
 
+### RELEASE 1.3.1
+
+![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 **Aira Hope** - Changed the colors of types and operators in typescript
+
+---
+
 ### RELEASE 1.3.0
 
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 > 🆕 CSS support </br>
 > 🆕 Markdown support
+
+---
 
 ### RELEASE: 1.2.0
 
@@ -74,4 +84,4 @@ Aira hope rewritten</br>
 > Editor tab colors</br>
 > Editor suggestions widget
 
-CHANGELOG inspired by [shades-of-purple](https://github.com/ahmadawais/shades-of-purple-vscode)
+</br>CHANGELOG inspired by [shades-of-purple](https://github.com/ahmadawais/shades-of-purple-vscode)
