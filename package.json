@@ -1,8 +1,8 @@
 {
   "name": "aira",
   "displayName": "Aira",
-  "description": "A different theme for different people who make a difference.",
-  "version": "1.3.1",
+  "description": "Official Aira Theme 🇧🇷",
+  "version": "2.0.0",
   "publisher": "talisoncardoso",
   "engines": {
     "vscode": "^1.0.0"
@@ -32,11 +32,6 @@
         "label": "Aira hope",
         "uiTheme": "vs-dark",
         "path": "./themes/aira-hope.json"
-      },
-      {
-        "label": "Aira old",
-        "uiTheme": "vs-dark",
-        "path": "./themes/aira-old.json"
       }
     ]
   },

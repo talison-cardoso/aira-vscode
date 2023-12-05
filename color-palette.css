@@ -1,19 +1,21 @@
 .aira-hope {
-  --background-details: #1c2834;
-  --background: #131c24;
-  --keywords : #50e191;
-  --foreground: #e9c46a;
-  --function: #C8B6FF;
-  --comment: #757e8f;
-  --types: #909cc3;
-  --grayish: #404657;
-  --others: #63acff;
+  background-color: #131C24;
+  --current-line: #1C2834;
+  --grayish-blue: #909CC3;
+  --foreground: #E5E5E5;
+  --comment: #787A88;
+  --details: #17212B;
+  --yellow: #D8C451;
+  --purple: #B69EFF;
+  --orange: #FF916E;
+  --green: #50E191;
+  --blue: #63ACFF;
   --cyan: #43dad7;
-  --orange: #ff916e;
-  --red: #ef4e5b;
-  --violet-2: #b69eff;
+  --gray: #404657;
+  --red: #EF4E5B;
 }
 
-maydo {
-  --bg: #090819;
-}
+/* 
+purple - Entity type, number, constant
+grayish-blue - support type
+*/
