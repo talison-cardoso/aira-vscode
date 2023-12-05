@@ -10,16 +10,12 @@
 
 * **Aira Hope** - Changed the colors of types and operators in typescript
 
----
-
 ## RELEASE: 1.3.0
 
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 * CSS support
 * Markdown support
-
----
 
 ## RELEASE: 1.2.0
 
@@ -30,15 +26,11 @@ Aira hope rewritte
 * Standardized and redefined color
 * Now supports multiple languages
 
----
-
 ## RELEASE: 1.1.0
 
 ![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 
 * CSS syntax
-
----
 
 ## RELEASE: 1.0.3
 
@@ -48,8 +40,6 @@ Aira hope rewritte
 * Color of arrow (function) change
 * Color of _fenced codeblock_ chagend
 
----
-
 ## RELEASE: 1.0.2
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
@@ -57,15 +47,11 @@ Aira hope rewritte
 * Button colors
 * Selected line color
 
----
-
 ## RELEASE: 1.0.1
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
 
 * Editor Indent Guide is deprecated
-
----
 
 ## RELEASE: 1.0.0
 
@@ -76,8 +62,6 @@ Aira hope rewritte
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
 
 * Compatibility with old versions of vscode
-
----
 
 ## RELEASE: 0.2.0
 
