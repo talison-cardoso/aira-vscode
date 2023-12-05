@@ -1,23 +1,23 @@
 # CHANGELOG
 
-## RELEASE: 2.0.0
+## 2.0.0
 
 **Aira Hope** - The theme has been completely reworked, many of the new directives are based on the [dracula spec](https://spec.draculatheme.com/)
 
-## RELEASE: 1.3.1
+## 1.3.1
 
 ![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 
 * **Aira Hope** - Changed the colors of types and operators in typescript
 
-## RELEASE: 1.3.0
+## 1.3.0
 
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 * CSS support
 * Markdown support
 
-## RELEASE: 1.2.0
+## 1.2.0
 
 Aira hope rewritte
 
@@ -26,13 +26,13 @@ Aira hope rewritte
 * Standardized and redefined color
 * Now supports multiple languages
 
-## RELEASE: 1.1.0
+## 1.1.0
 
 ![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 
 * CSS syntax
 
-## RELEASE: 1.0.3
+## 1.0.3
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
 
@@ -40,20 +40,20 @@ Aira hope rewritte
 * Color of arrow (function) change
 * Color of _fenced codeblock_ chagend
 
-## RELEASE: 1.0.2
+## 1.0.2
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
 
 * Button colors
 * Selected line color
 
-## RELEASE: 1.0.1
+## 1.0.1
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
 
 * Editor Indent Guide is deprecated
 
-## RELEASE: 1.0.0
+## 1.0.0
 
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
@@ -63,7 +63,7 @@ Aira hope rewritte
 
 * Compatibility with old versions of vscode
 
-## RELEASE: 0.2.0
+## 0.2.0
 
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
