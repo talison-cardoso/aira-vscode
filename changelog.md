@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.1.3
+
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+
+* Changed logo
+
 ## 2.1.1
 
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
