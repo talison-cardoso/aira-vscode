@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.1.0
+
+![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+* **Aira peace** new theme variant
+
 ## 2.0.1
 
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)

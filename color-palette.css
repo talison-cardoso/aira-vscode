@@ -1,18 +1,27 @@
-.aira-hope {
-  background-color: #131C24;
-  --current-line: #1C2834;
+.aira {
   --grayish-blue: #909CC3;
   --foreground: #E5E5E5;
   --comment: #787A88;
-  --details: #17212B;
   --yellow: #D8C451;
   --purple: #B69EFF;
   --orange: #FF916E;
   --green: #50E191;
+  --gray: #404657;
   --blue: #63ACFF;
   --cyan: #43dad7;
-  --gray: #404657;
   --red: #EF4E5B;
+}
+
+.aira-hope {
+  --background: #131C24;
+  --current-line: #1C2834;
+  --details: #17212B;
+}
+
+.aira-peace {
+   --background: #282D3D;
+   --current-line: #32364B;
+   --details: #2F3246;
 }
 
 /* 

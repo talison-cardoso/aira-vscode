@@ -2,7 +2,7 @@
   "name": "aira",
   "displayName": "Aira",
   "description": "Official Aira Theme 🇧🇷",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "publisher": "talisoncardoso",
   "engines": {
     "vscode": "^1.0.0"
@@ -32,6 +32,11 @@
         "label": "Aira hope",
         "uiTheme": "vs-dark",
         "path": "./themes/aira-hope.json"
+      },
+      {
+        "label": "Aira peace",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aira-peace.json"
       }
     ]
   },
