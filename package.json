@@ -29,12 +29,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Aira hope",
+        "label": "Aira Hope",
         "uiTheme": "vs-dark",
         "path": "./themes/aira-hope.json"
       },
       {
-        "label": "Aira peace",
+        "label": "Aira Peace",
         "uiTheme": "vs-dark",
         "path": "./themes/aira-peace.json"
       }
