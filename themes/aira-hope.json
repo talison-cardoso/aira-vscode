@@ -119,9 +119,9 @@
 
     // Editor colors
     // https://code.visualstudio.com/api/references/theme-color#editor-colors
-    "editor.background": "#131c24",
+    "editor.background": "#131C24",
     "editor.foreground": "#E5E5E5",
-    "editorLineNumber.foreground": "#909CC3A0",
+    "editorLineNumber.foreground": "#909CC380",
     "editorLineNumber.activeForeground": "#50E191",
     "editorLineNumber.dimmedForeground": "#FF916E", // When .renderFinalNewLine
     "editorCursor.foreground": "#FF916E",
@@ -139,13 +139,13 @@
     "search.resultsInfoForeground": "#50E191",
     "editor.hoverHighlightBackground": "#909CC328",
     "editor.lineHighlightBackground": "#17212B",
-    "editor.lineHighlightBorder": "#1c2936",
+    "editor.lineHighlightBorder": "#1C2936",
     "editorLink.activeForeground": "#63ACFF",
     // "editor.rangeHighlightBorder": "#909CC388",
     "editorWhitespace.foreground": "#50E19128",
     "editorIndentGuide.background1": "#50E19128",
     "editorIndentGuide.activeBackground1": "#50E1918A",
-    "editorRuler.foreground": "#1c2936",
+    "editorRuler.foreground": "#1C2936",
     // "editorBracketMatch.border": "#909CC3",
     //Bracket pai colorization
     "editorBracketHighlight.foreground1": "#E5E5E5",
@@ -172,13 +172,13 @@
     // Editor widget colors
     // https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
     "editorWidget.foreground": "#E5E5E5",
-    "editorWidget.background": "#1c2936",
+    "editorWidget.background": "#1C2936",
     "editorWidget.resizeBorder": "#909CC3", // find/replace
     "editorWidget.border": "#909CC380",
     "editorSuggestWidget.background": "#17212B",
     "editorSuggestWidget.focusHighlightForeground": "#50E191",
     "editorSuggestWidget.highlightForeground": "#63ACFF",
-    "editorHoverWidget.background": "#1c2936",
+    "editorHoverWidget.background": "#1C2936",
     "editorGhostText.background": "#909CC324",
     "editorStickyScroll.background": "#17212B",
     "editorStickyScrollHover.background": "#909CC322",
@@ -306,7 +306,7 @@
 
     // Debung colors
     // https://code.visualstudio.com/api/references/theme-color#debug-colors
-    "debugToolBar.background": "#1c2936",
+    "debugToolBar.background": "#1C2936",
     "debugToolBar.border": "#909CC380",
 
     // Welcome page colors
@@ -464,7 +464,7 @@
       "name": "Variables like this, self, super",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#B69EFF",
+        "foreground": "#FF916E",
         "fontStyle": "italic"
       }
     },
@@ -614,6 +614,12 @@
       "settings": {
         // FIXME: dever ter this colors??
         // "foreground": "#B69EFF"
+      }
+    },
+    {
+      "scope": "variable.other.property",
+      "settings": {
+        "foreground": "#B69EFF"
       }
     },
     {
@@ -807,6 +813,14 @@
     },
     {
       "scope": "entity.name.type.rust",
+      "settings": {
+        "foreground": "#FF916E"
+      }
+    },
+
+    // ----- PYTHON -----
+    {
+      "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
         "foreground": "#FF916E"
       }

@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 2.0.1
+
+![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+* Variable property colors
+
+![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+* New color for language variable - this, super, self...
+* editorLineNumber more opaque
+
 ## 2.0.0
 
 **Aira Hope** - The theme has been completely reworked, many of the new directives are based on the [dracula spec](https://spec.draculatheme.com/)
@@ -69,4 +80,5 @@ Aira hope rewritte
 
 * Editor tab colors
 * Editor suggestions widget
+
 </br>CHANGELOG inspired by [shades-of-purple](https://github.com/ahmadawais/shades-of-purple-vscode)
