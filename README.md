@@ -21,7 +21,7 @@ Aira injects energy and joy into your workflow, elevating your creativity to new
 2. Search for **Aira Theme** by Tálison Cardoso
 3. Click Install to install it.
 4. Click Reload to reload your editor.
-5. Code/File ＞ Preferences ＞ Color Theme ＞ Shades of Purple.
+5. Code/File ＞ Preferences ＞ Color Theme ＞ Aira.
 
 
 ### Aira Hope
