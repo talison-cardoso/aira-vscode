@@ -2,7 +2,7 @@
   "name": "aira",
   "displayName": "Aira",
   "description": "Official Aira Theme 🇧🇷",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "publisher": "talisoncardoso",
   "engines": {
     "vscode": "^1.0.0"
