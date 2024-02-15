@@ -25,9 +25,9 @@ Aira injects energy and joy into your workflow, elevating your creativity to new
 
 
 ### Aira Hope
-[![Aira Hope preview](images/aira-hope.svg)](https://vscodethemes.com/e/talisoncardoso.aira/aira-hope?language=javascript)
+![Aira Hope preview](images/aira-hope.png)
 
 ### Aira Peace
-[![Aira Peace preview](images/aira-peace.svg)](https://vscodethemes.com/e/talisoncardoso.aira/aira-peace?language=javascript)
+![Aira Peace preview](images/aira-peace.png)
 
 [marketplace]: https://marketplace.visualstudio.com/items?itemName=TalisonCardoso.aira
