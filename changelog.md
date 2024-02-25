@@ -1,6 +1,19 @@
 # CHANGELOG
 
+## 2.2.0
+
+![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+* Standardized entity types
+* Changed constants
+* Better support for php
+
+![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+* Demo php file
+
 ## 2.1.4
+
 ![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 * Add description [readme](/README.md)

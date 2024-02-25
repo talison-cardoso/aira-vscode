@@ -263,7 +263,7 @@
 
     // Exntensios colors
     // https://code.visualstudio.com/api/references/theme-color#extensions-colors
-    "extensionIcon.starForeground": "#D8C451",
+    "extensionIcon.starForeground": "#D8C451FE",
 
     // Quick picker colors
     // https://code.visualstudio.com/api/references/theme-color#quick-picker-colors
@@ -302,7 +302,7 @@
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightYellow": "#ffe65c",
     "terminal.findMatchHighlightBackground": "#909CC359",
-    "terminal.findMatchBackground": "#EF4E5B",
+    "terminal.findMatchBackground": "#EF4E5BD0",
 
     // Debung colors
     // https://code.visualstudio.com/api/references/theme-color#debug-colors
@@ -491,14 +491,21 @@
         "fontStyle": "italic"
       }
     },
-    // {
-    //   "scope": "support",
-    //   "settings": {
-    //     "foreground": "#FF916E",
-    //     "fontStyle": "italic"
-    //   }
-    // },
-
+    // ----- support -----
+    {
+      "scope": "support",
+      "settings": {
+        "foreground": "#FF916E",
+        // "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#FF916E"
+      }
+    },
+    
     // punctuation
     {
       "scope": "punctuation.separator.key-value",
@@ -516,6 +523,13 @@
         "foreground": "#50E191"
       }
     },
+    {
+      "name": "Separator ex.1: \\",
+      "scope": "punctuation.separator.inheritance",
+      "settings": {
+        "foreground": "#50E191"
+      }
+    },
 
     // Storage
     {
@@ -527,14 +541,14 @@
     {
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#B69EFF",
+        "foreground": "#FF916E",
         "fontStyle": "italic"
       }
     },
     {
       "scope": "support.type",
       "settings": {
-        "foreground": "#909CC3"
+        "foreground": "#FF916E"
       }
     },
     // {
@@ -587,7 +601,7 @@
     {
       "scope": "variable.other.constant",
       "settings": {
-        // "foreground": "#B69EFF"
+        "foreground": "#B69EFF"
       }
     },
     {
@@ -596,13 +610,15 @@
         "foreground": "#B69EFF"
       }
     },
-    // {
-    //   "name": "constant object",
-    //   "scope": "variable.other.object",
-    //   "settings": {
-    //   "foreground": "#B69EFF"
-    //   }
-    // },
+    {
+      "name": "character of escape",
+      "scope": "constant.character.escape",
+      "settings": {
+      "foreground": "#50E191"
+      }
+    },
+    // ----- end constant -----
+
     {
       "scope": "meta.embedded.line",
       "settings": {
@@ -812,7 +828,11 @@
       }
     },
     {
-      "scope": "entity.name.type.rust",
+      "scope": [
+        "entity.name.type.rust",
+        "entity.name.type.enum.rust",
+        "entity.name.type.struct.rust"
+      ],
       "settings": {
         "foreground": "#FF916E"
       }
@@ -821,6 +841,41 @@
     // ----- PYTHON -----
     {
       "scope": "variable.parameter.function.language.special.self.python",
+      "settings": {
+        "foreground": "#FF916E"
+      }
+    },
+
+    // ----- PHP -----
+    {
+      "name": "PHP - support",
+      "scope": ["support.class.1", "support.other.namespace.php"],
+      "settings": {
+        "foreground": "#FF916E",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "PHP - variable other",
+      "scope": "variable.other.property.php",
+      "settings": {
+        "foreground": "#E5E5E5"
+      }
+    },
+    {
+      "name": "PHP - punctuation section <?php ?>",
+      "scope": [
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php",
+        "punctuation.section.embedded.end.php source.php"
+      ],
+      "settings": {
+        "foreground": "#50E191"
+      }
+    },
+    {
+      "name": "PHP - types name",
+      "scope": ["entity.name.type.interface.php", "entity.name.type.trait.php"],
       "settings": {
         "foreground": "#FF916E"
       }

@@ -14,7 +14,6 @@ Aira injects energy and joy into your workflow, elevating your creativity to new
 
 </div>
 
-
 ## Installation
 
 1. Open the extensions sidebar on Visual Studio Code
@@ -23,11 +22,12 @@ Aira injects energy and joy into your workflow, elevating your creativity to new
 4. Click Reload to reload your editor.
 5. Code/File ＞ Preferences ＞ Color Theme ＞ Aira.
 
-
 ### Aira Hope
+
 ![Aira Hope preview](images/aira-hope.png)
 
 ### Aira Peace
+
 ![Aira Peace preview](images/aira-peace.png)
 
 [marketplace]: https://marketplace.visualstudio.com/items?itemName=TalisonCardoso.aira
