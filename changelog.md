@@ -1,51 +1,64 @@
 # CHANGELOG
 
+## 2.3.0
+
+**New**
+
+- `semanticHighlighting` is enabled
+- Redesigned changelogs
+
+**Improve**
+
+- Variable parameter - now `fontStyle` is "normal"
+- The `variable.other.property` style has been removed, it is now styled by `semanticHighlighting`
+- support variable
+
 ## 2.2.0
 
-![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+**Improve**
 
-* Standardized entity types
-* Changed constants
-* Better support for php
+- Standardized entity types
+- Changed constants
+- Better support for php
 
-![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+**New**
 
-* Demo php file
+- Demo php file
 
 ## 2.1.4
 
-![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+**New**
 
-* Add description [readme](/README.md)
+- Add description [readme](/README.md)
 
 ## 2.1.3
 
-![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+**Fix**
 
-* Changed logo
+- Changed logo
 
 ## 2.1.1
 
-![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+**New**
 
-* new logo
+- new logo
 
 ## 2.1.0
 
-![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+**New**
 
-* **Aira peace** new theme variant
+- **Aira peace** new theme variant
 
 ## 2.0.1
 
-![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+**New**
 
-* Variable property colors
+- Variable property colors
 
-![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+**Improve**
 
-* New color for language variable - this, super, self...
-* editorLineNumber more opaque
+- New color for language variable - this, super, self...
+- editorLineNumber more opaque
 
 ## 2.0.0
 
@@ -53,68 +66,66 @@
 
 ## 1.3.1
 
-![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+**Improve**
 
-* **Aira Hope** - Changed the colors of types and operators in typescript
+- **Aira Hope** - Changed the colors of types and operators in typescript
 
 ## 1.3.0
 
-![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+**New**
 
-* CSS support
-* Markdown support
+- CSS support
+- Markdown support
 
 ## 1.2.0
 
-Aira hope rewritte
+> Aira hope rewritte
 
-![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+**Improve**
 
-* Standardized and redefined color
-* Now supports multiple languages
+- Standardized and redefined color
+- Now supports multiple languages
 
 ## 1.1.0
 
-![IMPROVE](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+**Improve**
 
-* CSS syntax
+- CSS syntax
 
 ## 1.0.3
 
-![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+**Fix**
 
-* Color of operators changed
-* Color of arrow (function) change
-* Color of _fenced codeblock_ chagend
+- Color of operators changed
+- Color of arrow (function) change
+- Color of _fenced codeblock_ chagend
 
 ## 1.0.2
 
-![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+**Fix**
 
-* Button colors
-* Selected line color
+- Button colors
+- Selected line color
 
 ## 1.0.1
 
-![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+**Fix**
 
-* Editor Indent Guide is deprecated
+- Editor Indent Guide is deprecated
 
 ## 1.0.0
 
-![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+**New**
 
-* Aira hope theme
+- Aira hope theme
 
-![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
+**Fix**
 
-* Compatibility with old versions of vscode
+- Compatibility with old versions of vscode
 
 ## 0.2.0
 
-![New](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+**New**
 
-* Editor tab colors
-* Editor suggestions widget
-
-</br>CHANGELOG inspired by [shades-of-purple](https://github.com/ahmadawais/shades-of-purple-vscode)
+- Editor tab colors
+- Editor suggestions widget

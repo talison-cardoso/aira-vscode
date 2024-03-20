@@ -2,7 +2,7 @@
   "name": "aira",
   "displayName": "Aira",
   "description": "Official Aira Theme 🇧🇷",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "publisher": "talisoncardoso",
   "engines": {
     "vscode": "^1.0.0"
@@ -14,14 +14,15 @@
   "icon": "images/icon/logo.png",
   "galleryBanner": {
     "color": "#1C2834",
-    "theme": "dark"
+    "theme": "dark"  
   },
   "keywords": [
     "Aira",
     "Dark Theme",
-    "Aura",
-    "One Dark",
-    "Dracula"
+    "Theme",
+    "Dark",
+    "Hope",
+    "Peace"
   ],
   "categories": [
     "Themes"

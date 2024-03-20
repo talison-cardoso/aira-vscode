@@ -16,7 +16,7 @@
     // https://code.visualstudio.com/api/references/theme-color#text-colors
     "textBlockQuote.background": "#2F3246", // ex: quote in some extension description
     "textBlockQuote.border": "#909CC3",
-    "textLink.foreground":  "#63ACFF",
+    "textLink.foreground": "#63ACFF",
     "textPreformat.foreground": "#50E191",
 
     // Action colors - hover the 'x' icon on the
@@ -371,6 +371,8 @@
     "actionBar.toggledBackground": "#ff0000"
   },
 
+  "semanticHighlighting": true,
+
   "tokenColors": [
     // general
     {
@@ -416,12 +418,6 @@
         "foreground": "#D8C451"
       }
     },
-    {
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#B69EFF"
-      }
-    },
 
     // keywords
     {
@@ -443,6 +439,7 @@
     //     "foreground": "#909CC3"
     //   }
     // },
+
     // class
     {
       "name": "Class name",
@@ -464,7 +461,7 @@
       "name": "Variables like this, self, super",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#FF916E",
+        "foreground": "#B69EFF",
         "fontStyle": "italic"
       }
     },
@@ -480,7 +477,7 @@
       "scope": "variable.parameter",
       "settings": {
         // "foreground": "#909CC3",
-        "fontStyle": "italic"
+        // "fontStyle": "italic"
       }
     },
     {
@@ -500,12 +497,30 @@
       }
     },
     {
+      "scope": "support.variable",
+      "settings": {
+        "foreground": "#B69EFF"
+      }
+    },
+    {
       "scope": "support.function",
       "settings": {
         "foreground": "#FF916E"
       }
     },
-    
+    {
+      "scope": "support.type",
+      "settings": {
+        "foreground": "#FF916E"
+      }
+    },
+    {
+      "scope": "support.constant",
+      "settings": {
+        "foreground": "#B69EFF"
+      }
+    },
+
     // punctuation
     {
       "scope": "punctuation.separator.key-value",
@@ -543,12 +558,6 @@
       "settings": {
         "foreground": "#FF916E",
         "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": "support.type",
-      "settings": {
-        "foreground": "#FF916E"
       }
     },
     // {
@@ -599,22 +608,16 @@
 
     // constant
     {
-      "scope": "variable.other.constant",
-      "settings": {
-        "foreground": "#B69EFF"
-      }
-    },
-    {
-      "scope": "support.constant",
-      "settings": {
-        "foreground": "#B69EFF"
-      }
-    },
-    {
       "name": "character of escape",
       "scope": "constant.character.escape",
       "settings": {
-      "foreground": "#50E191"
+        "foreground": "#50E191"
+      }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#B69EFF"
       }
     },
     // ----- end constant -----
@@ -625,19 +628,26 @@
         // "foreground": "#909CC3"
       }
     },
+
+    // Variables 
     {
-      "scope": "variable.other.readwrite",
-      "settings": {
-        // FIXME: dever ter this colors??
-        // "foreground": "#B69EFF"
-      }
-    },
-    {
-      "scope": "variable.other.property",
+      "scope": "variable.other.constant",
       "settings": {
         "foreground": "#B69EFF"
       }
     },
+    // {
+    //   "scope": "variable.other.readwrite",
+    //   "settings": {
+    //     // "foreground": "#B69EFF"
+    //   }
+    // },
+    // {
+    //   "scope": "variable.other.property",
+    //   "settings": {
+    //     "foreground": "#B69EFF"
+    //   }
+    // },
     {
       "scope": "variable.other.readwrite.alias",
       "settings": {
