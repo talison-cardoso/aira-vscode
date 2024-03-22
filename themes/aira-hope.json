@@ -430,7 +430,6 @@
       "scope": ["keyword.operator.new", "keyword.control.new"],
       "settings": {
         "foreground": "#50E191",
-        "fontStyle": "italic bold"
       }
     },
     // {

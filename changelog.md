@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2.3.1
+
+**New**
+
+- Code preview images
+
+**Improve**
+
+- Name of extension has been changed. Now it's `Aira Theme`. Before it was just `Aira`.
+- Add new demo images in [readme](/README.md)
+- The `new` keyword fontStyle has been removed
+
 ## 2.3.0
 
 **New**

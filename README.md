@@ -24,10 +24,13 @@ Aira injects energy and joy into your workflow, elevating your creativity to new
 
 ### Aira Hope
 
-![Aira Hope preview](images/aira-hope.png)
+![Aira Hope preview](images/aira-hope-html.png)
+![Aira Hope preview](images/aira-hope-jsx.png)
 
 ### Aira Peace
 
-![Aira Peace preview](images/aira-peace.png)
+![Aira Peace SQL preview](images/aira-peace-sql.png)
+![Aira Peace Rust preview](images/aira-peace-rust.png)
+
 
 [marketplace]: https://marketplace.visualstudio.com/items?itemName=TalisonCardoso.aira
